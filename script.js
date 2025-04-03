@@ -46,14 +46,14 @@ async function generateReport() {
 
         
 
-        const columnWidths = [7, 26, 25, 23, 30, 41, 53, 23, 24];
+        const columnWidths = [7, 42, 30, 30, 30, 41, 60, 30, 30];
         sheet.columns = columnWidths.map(width => ({ width }));
 
 
-        sheet.getRow(1).height = 45;
-        sheet.getRow(2).height = 45;
+        sheet.getRow(1).height = 22;
+        sheet.getRow(2).height = 22;
         sheet.getRow(3).height = 40;
-        sheet.getRow(4).height = 55;
+        sheet.getRow(4).height = 60;
         sheet.getRow(25).height = 35;
         sheet.getRow(26).height = 55;
 
