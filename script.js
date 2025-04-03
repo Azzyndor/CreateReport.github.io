@@ -125,7 +125,7 @@ async function generateReport() {
             {
                 richText: [
                     { text: "Promoted product on visit", font: { bold: true } },
-                    { text: "\n( Tashrifda promotsiya qilingan mahsulot)", font: { bold: false } }
+                    { text: "\n(Tashrifda promotsiya qilingan mahsulot)", font: { bold: false } }
                 ]
             },
             {
@@ -183,7 +183,7 @@ async function generateReport() {
         const blueFill = {
             type: 'pattern',
             pattern: 'solid',
-            fgColor: { argb: 'ff94dcf0' } 
+            fgColor: { argb: 'ff93cddd' } 
         };
     
         const greenFill = {
